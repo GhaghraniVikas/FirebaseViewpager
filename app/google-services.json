@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294199429973",
+    "firebase_url": "https://fir-viewpager-90aa5.firebaseio.com",
+    "project_id": "fir-viewpager-90aa5",
+    "storage_bucket": "fir-viewpager-90aa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294199429973:android:fdecde376b3acf37",
+        "android_client_info": {
+          "package_name": "com.example.firebaseviewpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294199429973-krfn9h17kf3bpnqr591a092j60afc4f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseviewpager",
+            "certificate_hash": "e6e9c379e382718c65efec4342d5e9fd0024301d"
+          }
+        },
+        {
+          "client_id": "294199429973-mm70tfer6c045lt0jj7i0s2stus7v8m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzW733RK9YE2eJhtVgTPsDOXngXuvqXqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294199429973-mm70tfer6c045lt0jj7i0s2stus7v8m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="30"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="29">
+
+   <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/wallp_img"
+    android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Wallpapers"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_gravity="bottom"
+            android:padding="8dp"
+            android:background="#F4C150"
+            android:id="@+id/wall_title"
+            android:layout_height="wrap_content" />
+        
+    </FrameLayout>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:padding="8dp"
+                    android:background="#F7F8FA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/wall_description"
+                        android:text="Lorem upsum"
+                        android:textColor="#000"
+                        android:justificationMode="inter_word"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_fav"
+        app:layout_anchor="@+id/card"
+        app:layout_anchorGravity="top|end"
+        android:src="@drawable/ic_favorite_black_24dp"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
